@@ -1,9 +1,11 @@
 /*!
  * Creator Theme by Lynda Metref (https://lynda.metref.net)
- * inspired by Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Code licensed under the MIT License.
+ * For details, see https://opensource.org/licenses/MIT.
  */
+
+@import 'palette';
+@import 'geometry';
 
 body {
     overflow-x: hidden;
@@ -20,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #7C4DFF;
+    color: $accent-color;
 }
 
 img#logo {
@@ -30,35 +32,36 @@ img#logo {
 }
 
 nav.navbar-inverse {
-   background-color: #303f9f;
+   background-color: $primary-color-dark;
 }
 .navbar-nav li a {
-   line-height: 40px;
+   line-height: $main-menu-line-height;
    vertical-align: middle;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-   background-color: #3F51B5;
+   background-color: $primary-color;
 }
 
 .navbar {
     margin-bottom: 0px;
 }
 
+
 header {
     text-align: center;
-    color: #fff;
-    background: #3F51B5;
+    color: $primary-color-text;
+    background: $primary-color;
     width:auto;
-    padding:60px 0;
-    margin-top: 50px;
+    padding: $header-padding;
+    margin-top: $main-menu-line-height;
 }
 
 header a {
-   color: #fff;
+   color: $primary-color-text;
 }
 header a:hover {
-   color: #c5cae9;
+   color: $primary-color-light;
    text-decoration: none;
 }
 
@@ -69,9 +72,9 @@ header h1  {
 }
 
 header h1 small {
-   color: #c5cae9;
+   color: $primary-color-light;
    font-variant:normal;
-   font-size: 40%;
+   font-size: 30%;
 }
 
 footer{
