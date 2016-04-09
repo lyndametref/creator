@@ -1,0 +1,39 @@
+/*!
+ * Creator Theme by Lynda Metref (https://lynda.metref.net)
+ * Header styling
+ * Code licensed under the MIT License.
+ * For details, see https://opensource.org/licenses/MIT.
+ */
+
+header {
+   text-align: center;
+   color: $primary-color-text;
+   background: $primary-color;
+   margin-top: $main-menu-line-height;
+   padding: $header-padding;
+   width:auto;
+
+   a { color: $primary-color-text; }
+
+   a:hover {
+      color: $primary-color-light;
+      text-decoration: none;
+   }
+
+   h1  {
+      font-size: 300%;
+      font-variant: small-caps;
+      font-weight: 700;
+
+      small {
+         color: $primary-color-light;
+         font-variant:normal;
+         font-size: 40%;
+      }
+   }
+
+   .posttranslations {
+      li { display: inline; }
+      ul { float: right; }
+   }
+}

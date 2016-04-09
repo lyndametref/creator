@@ -7,13 +7,12 @@
 @import 'palette';
 @import 'geometry';
 
+@import 'navbar';
+@import 'header';
+
 body {
     overflow-x: hidden;
     font-size: 17px;
-}
-
-p.small {
-    font-size: 15px;
 }
 
 a,
@@ -25,58 +24,6 @@ a.active {
     color: $accent-color;
 }
 
-img#logo {
-    display: inline;
-    margin-right: 10px;
-    vertical-align:middle;
-}
-
-nav.navbar-inverse {
-   background-color: $primary-color-dark;
-}
-.navbar-nav li a {
-   line-height: $main-menu-line-height;
-   vertical-align: middle;
-}
-
-.navbar-inverse .navbar-nav > .active > a {
-   background-color: $primary-color;
-}
-
-.navbar {
-    margin-bottom: 0px;
-}
-
-
-header {
-    text-align: center;
-    color: $primary-color-text;
-    background: $primary-color;
-    width:auto;
-    padding: $header-padding;
-    margin-top: $main-menu-line-height;
-}
-
-header a {
-   color: $primary-color-text;
-}
-header a:hover {
-   color: $primary-color-light;
-   text-decoration: none;
-}
-
-header h1  {
-   font-size: 300%;
-   font-variant: small-caps;
-   font-weight: 700;
-}
-
-header h1 small {
-   color: $primary-color-light;
-   font-variant:normal;
-   font-size: 30%;
-}
-
 footer{
    text-align: center;
    padding:20px 0;
@@ -84,4 +31,8 @@ footer{
 
 div.topic{
    display: none;
+}
+
+.license {
+   margin: 10px;
 }

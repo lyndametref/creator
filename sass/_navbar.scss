@@ -1,0 +1,28 @@
+/*!
+ * Creator Theme by Lynda Metref (https://lynda.metref.net)
+ * Navbar styling
+ * Code licensed under the MIT License.
+ * For details, see https://opensource.org/licenses/MIT.
+ */
+
+#logo {
+    display: inline;
+    margin-right: 10px;
+    line-height: $main-menu-line-height;
+}
+
+nav.navbar-inverse {
+   background-color: $primary-color-dark;
+   vertical-align: middle;
+   margin: 0;
+
+   a {
+      line-height: $main-menu-line-height;
+      margin: 0;
+   }
+
+   .navbar-nav > .active > a,
+   .navbar-nav > .active > a:hover {
+      background-color: $primary-color;
+   }
+}
