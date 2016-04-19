@@ -13,12 +13,7 @@ header {
    padding: $header-padding;
    width:auto;
 
-   a { color: $primary-color-text; }
-
-   a:hover {
-      color: $primary-color-light;
-      text-decoration: none;
-   }
+   a, a:hover { color: $primary-color-text; }
 
    h1  {
       font-size: 300%;
@@ -32,7 +27,7 @@ header {
       }
    }
 
-   .posttranslations {
+   .posttranslations, .posttranslations-intro {
       li { display: inline; }
       ul { float: right; }
    }
