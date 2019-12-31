@@ -4,6 +4,5 @@ output
 __pycache__
 .doit.db
 state_data.json
-themes
 *~
 bower_components

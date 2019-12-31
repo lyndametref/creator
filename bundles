@@ -1,4 +1,30 @@
-assets/css/all-nocdn.css=bootstrap.css,rst.css,code.css,colorbox.css,theme.css,custom.css
-assets/css/all.css=rst.css,code.css,colorbox.css,theme.css,custom.css
-assets/js/all-nocdn.js=jquery.min.js,bootstrap.min.js,jquery.colorbox-min.js,moment-with-locales.min.js,fancydates.js
-assets/js/all.js=jquery.colorbox-min.js,moment-with-locales.min.js,fancydates.js
+; css bundles
+assets/css/all-nocdn.css=
+    creator.css,
+    bootstrap.min.css,
+    rst_base.css,
+    nikola_rst.css,
+    code.css,
+    baguetteBox.min.css,
+    theme.css,
+    custom.css,
+
+
+assets/css/all.css=
+    creator.css,
+    rst_base.css,
+    nikola_rst.css,
+    code.css,
+    baguetteBox.min.css,
+    theme.css,
+    custom.css
+
+; javascript bundles
+assets/js/all-nocdn.js=
+    jquery.min.js,
+    popper.min.js,
+    bootstrap.min.js,
+    baguetteBox.min.js,
+    fancydates.min.js,
+assets/js/all.js=
+    fancydates.min.js

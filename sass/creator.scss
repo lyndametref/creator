@@ -33,6 +33,17 @@ div.topic{
    display: none;
 }
 
+.slide {
+  max-width: 500px;
+  margin: auto;
+}
+
 .license {
    margin: 10px;
+}
+
+#content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }

@@ -5,24 +5,21 @@
  * For details, see https://opensource.org/licenses/MIT.
  */
 
-#logo {
-    display: inline;
-    margin-right: 10px;
-    line-height: $main-menu-line-height;
-}
-
-nav.navbar-inverse {
-   background-color: $primary-color-dark;
-   vertical-align: middle;
-   margin: 0;
-
-   a {
+nav.navbar {
+  #logo {
+      display: inline !important;
+      margin-right: 10px;
       line-height: $main-menu-line-height;
-      margin: 0;
-   }
+      height:40px;
+  }
 
-   .navbar-nav > .active > a,
-   .navbar-nav > .active > a:hover {
-      background-color: $primary-color;
-   }
+  #blog-title {
+    font-size: 1.1em;
+    color: $secondary-text-color;
+    padding-right: 1.5em;
+  }
+  
+   background-color: $primary-color-dark !important;
+   margin: 0 !important;
+   border-bottom: solid black 1px;
 }

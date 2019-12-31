@@ -1,0 +1,16 @@
+[Theme]
+engine = mako
+parent = bootstrap4
+author = Lynda Metref
+author_url = https://lynda.metref.net
+based_on = Bootstrap 4 <http://getbootstrap.com/>
+license = MIT
+tags = bootstrap
+
+[Family]
+family = bootstrap4
+jinja_version = bootstrap4-jinja
+variants = bootstrap4-gradients, bootstrap4-gradients-jinja
+
+[Nikola]
+bootswatch = True
